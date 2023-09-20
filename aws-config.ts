@@ -6,4 +6,4 @@ AWS.config.update({
     region: process.env.NEXT_PUBLIC_AWS_REGION,
 });
 
-module.exports = {AWS};
+export default AWS;

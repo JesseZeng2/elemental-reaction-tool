@@ -1,6 +1,7 @@
-import {AWS} from '../../../aws-config';
+import AWS from '../../../aws-config';
+import {NextApiRequest, NextApiResponse} from "next";
 
-export default async function handler(req, res) {
+export default async function handler(req: NextApiRequest, res: NextApiResponse) {
 
     const DynamoDB = new AWS.DynamoDB();
 
