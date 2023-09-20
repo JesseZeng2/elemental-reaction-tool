@@ -1,4 +1,4 @@
-import {AWS} from 'aws-config';
+import {AWS} from '../../../aws-config';
 
 export default async function handler(req, res) {
 
