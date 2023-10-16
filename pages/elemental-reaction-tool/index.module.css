@@ -1,0 +1,38 @@
+.base {
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+}
+
+.tileContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.tile:hover, .button:hover {
+    cursor: pointer;
+}
