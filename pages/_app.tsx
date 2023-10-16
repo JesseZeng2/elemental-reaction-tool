@@ -3,7 +3,7 @@ import React from "react";
 import {ThemeProvider} from "@mui/material/styles";
 import theme from "../styles/theme";
 import {AppBar, CssBaseline, Toolbar, Typography} from "@mui/material";
-import "../styles/global.css";
+import "./globals.css";
 
 export default function App({Component, pageProps}: AppProps) {
 
